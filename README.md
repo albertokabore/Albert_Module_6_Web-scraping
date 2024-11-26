@@ -18,6 +18,9 @@ Make sure to add and push the pkl or text file of your scraped html (this is spe
 * (Question 7) Histogram shown with appropriate labelling: 1 pt
 * (Question 8) Thoughtful answer provided: 1 pt
 
+# Task 1. Get Started
+Copy the base repository into your GitHub account by selecting the "Use this Template" button on GitHub and specifying yourself as the owner.  The base repository is available at: https://github.com/wmnlp-materials/web-scrapingLinks to an external site.
+Clone YOUR new repo down to your machine.
 
 ```python
 from collections import Counter
@@ -31,6 +34,8 @@ import matplotlib.pyplot as plt
 
 print('All prereqs installed.')
 ```
+
+# Task 2. Open Notebook and Complete Tasks
 
 Question 1. Write code that extracts the article html from https://web.archive.org/web/20210327165005/https://hackaday.com/2021/03/22/how-laser-headlights-work/ and dumps it to a .pkl (or other appropriate file)
 
@@ -277,5 +282,18 @@ plt.show()
 # The most common range of scores appears to be around [0.0, 0.1] based on the histogram.
 ```
 
-Which tokens and lexems would be ommitted from the lists generated in questions 3 and 4 if we only wanted to consider nouns as interesting words? How might we change the code to only consider nouns? Put your answer in this Markdown cell (you can edit it by double clicking it).
+Question 8: Which tokens and lexems would be ommitted from the lists generated in questions 3 and 4 if we only wanted to consider nouns as interesting words? How might we change the code to only consider nouns? Put your answer in this Markdown cell (you can edit it by double clicking it).
 
+
+# Task 3. Export to HTML and Finalize Repo
+Execute each notebook.
+After executing, export each notebook to HTML.
+Commit and push your HTML files to your GitHub repo along with the executed notebooks. 
+Verify you have a professional README.md that introduces your GitHub repository and provides helpful information about your project. 
+
+```python
+!jupyter nbconvert --to html web-scraping.ipynb
+```
+
+
+ 
